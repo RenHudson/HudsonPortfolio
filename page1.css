@@ -4,7 +4,17 @@ ul{
     width: 100%;
     border:solid 1px blue;
 }
-
+h1{
+    margin-top: 120px;
+    font-size: 71pt;
+    background-color: blue;
+    width: 316px;
+    height: 100px;
+}
+#intro{
+    display:flex;
+    justify-content:space-between
+}
 li{
     align-self: center;
     list-style: none
@@ -19,9 +29,6 @@ p {
     display:flex;
     justify-content: space-around;
 }
-img{
+#image{
     margin-top: 15px;
-    height: 487px;
-    width: 487px;
-
 }
