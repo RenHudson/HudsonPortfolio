@@ -32,3 +32,16 @@ p {
 #image{
     margin-top: 15px;
 }
+#dress{
+    display:flex;
+    justify-content:space-between
+}
+#beach{
+    display: flex;
+    justify-content: space-between
+}
+#poetry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
