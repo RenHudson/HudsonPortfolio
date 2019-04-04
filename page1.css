@@ -3,6 +3,8 @@ ul{
     justify-content: space-around;
     width: 100%;
     border:solid 1px blue;
+    font-family: sans-serif;
+    font-size: 20px
 }
 h1{
     margin-top: 120px;
@@ -10,6 +12,7 @@ h1{
     background-color: blue;
     width: 316px;
     height: 100px;
+    font-family: sans-serif
 }
 #intro{
     display:flex;
@@ -24,6 +27,8 @@ p {
     border: solid blue;
     width: 421px;
     height: 487px;
+    font-family: sans-serif;
+
 }
 #body{
     display:flex;
@@ -34,11 +39,13 @@ p {
 }
 #dress{
     display:flex;
-    justify-content:space-between
+    justify-content:space-between;
+    font-size: 32px;
 }
 #beach{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    font-size: 32px;
 }
 #poetry{
     display: flex;
