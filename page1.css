@@ -8,11 +8,22 @@ ul{
 }
 h1{
     margin-top: 120px;
-    font-size: 71pt;
     background-color: blue;
     width: 316px;
     height: 100px;
-    font-family: sans-serif
+    font-family: sans-serif;
+}
+#delay1{
+   font-size: 12pt;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+}
+#delay1:hover{
+    font-size: 71pt;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
 }
 #intro{
     display:flex;
