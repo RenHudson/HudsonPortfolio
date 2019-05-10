@@ -55,8 +55,28 @@ p {
     font-size: 32px;
 }
 #beach{
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    justify-content:space-between;
+    font-size: 32px;
+}
+#pine{
+    display:flex;
+    justify-content:space-between;
+    font-size: 32px;
+}
+#berries{
+    display:flex;
+    justify-content:space-between;
+    font-size: 32px;
+}
+#hall{
+    display:flex;
+    justify-content:space-between;
+    font-size: 32px;
+}
+#tower{
+    display:flex;
+    justify-content:space-between;
     font-size: 32px;
 }
 #poetry{
@@ -64,6 +84,21 @@ p {
     flex-direction: column;
     align-items: center;
 }
-#help,#helpme{
+#help{
+    margin-top: 30px;
+}
+#helpme{
+    margin-top: 30px;
+}
+#helpful{
+    margin-top: 30px;
+}
+#helpless{
+    margin-top: 30px;
+}
+#selfhelp{
+    margin-top: 30px;
+}
+#idk{
     margin-top: 30px;
 }
