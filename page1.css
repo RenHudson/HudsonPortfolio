@@ -13,13 +13,13 @@ h1{
     height: 100px;
     font-family: sans-serif;
 }
-#delay1{
-   font-size: 12pt;
+h1{
+   font-size: 71pt;
     transition-property: font-size;
     transition-duration: 4s;
     transition-delay: 2s;
 }
-#delay1:hover{
+h1:hover {
     font-size: 71pt;
     transition-property: font-size;
     transition-duration: 4s;
@@ -101,4 +101,16 @@ p {
 }
 #idk{
     margin-top: 30px;
+}
+/*Start of mobile*/
+@media only screen and (max-width: 700px){
+    body{
+        background-color:fuchsia;
+    }
+    #body{
+        display:flex;
+        align-items: center;
+        flex-direction:column-reverse;
+    }
+
 }
