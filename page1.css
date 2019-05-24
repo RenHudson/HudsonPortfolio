@@ -1,3 +1,4 @@
+/*main page*/
 ul{
     display:flex;
     justify-content: space-around;
@@ -17,13 +18,13 @@ h1{
    font-size: 71pt;
     transition-property: font-size;
     transition-duration: 4s;
-    transition-delay: 2s;
+    transition-delay: 0s;
 }
 h1:hover {
     font-size: 71pt;
     transition-property: font-size;
     transition-duration: 4s;
-    transition-delay: 2s;
+    transition-delay: 0s;
 }
 #intro{
     display:flex;
@@ -39,67 +40,69 @@ p {
     width: 421px;
     height: 487px;
     font-family: sans-serif;
-
-
+    font-size: 20pt
 }
 #body{
     display:flex;
     justify-content: space-around;
 }
-#image{
+#karkalicious{
     margin-top: 15px;
 }
+/*photography css*/
 #dress{
     display:flex;
+    align-items: center;
     justify-content:space-between;
     font-size: 32px;
      margin-top: 30px;
 }
 #beach{
     display:flex;
+    align-items: center;
     justify-content:space-between;
     font-size: 32px;
      margin-top: 30px;
 }
 #pine{
     display:flex;
+    align-items: center;
     justify-content:space-between;
     font-size: 32px;
      margin-top: 30px;
 }
 #berries{
     display:flex;
+    align-items:center;
     justify-content:space-between;
     font-size: 32px;
      margin-top: 30px;
 }
 #hall{
     display:flex;
+    align-items: center;
     justify-content:space-between;
     font-size: 32px;
      margin-top: 30px;
 }
 #tower{
     display:flex;
+    align-items: center;
     justify-content:space-between;
     font-size: 32px;
      margin-top: 30px;
 }
-#poetry{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-     margin-top: 30px;
-}
+
 #pictures{
-    display=flex
-    align-items: center
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 /*Start of mobile*/
 @media only screen and (max-width: 700px){
     body{
-        background-color:fuchsia;
+        background-color:#c6dcff;
     }
     #body{
         display:flex;
